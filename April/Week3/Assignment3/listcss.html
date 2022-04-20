@@ -1,0 +1,72 @@
+<html>
+<head>
+    <h3>Applying Css To Lists</h3>
+    <style>
+
+        ul{
+            background-color: blue;
+            padding: 5px;
+            width: 30%;
+            text-align: center;
+            margin: 5px;
+        }
+        ul li{
+            background-color: yellow;
+            padding: 5px;
+            margin: 5px;
+        }
+        ul :first-child {
+            background-color: tomato;
+        }
+        ul :last-child {
+            background-color: tomato;
+        }
+        ul :nth-child(3)
+        {
+            background-color: brown;
+        }
+        body{
+            background-color: paleturquoise;
+        }
+        ol{
+            background-color: blueviolet;
+            padding: 5px;
+            width: 30%;
+            margin: 5px;
+        }
+
+       ol li
+       {
+            background-color: pink;
+            padding: 5px;
+            margin: 5px;
+        }
+        .myDiv {
+            display: block;
+  border: 5px outset red;
+  background-color: grey;
+  text-align: center;
+}
+    </style>
+   
+</head>
+<body>
+    <div class="myDiv">
+    <ul type="square">
+        <li>SACHIN</li>
+        <li>ROHIT</li>
+        <li>KOHLI</li>
+        <li>DHONI</li>
+        <li>ZAHEER</li>
+    </ul>
+    <ol type="i">
+        <li>SACHIN</li>
+        <li>ROHIT</li>
+        <li>KOHLI</li>
+        <li>DHONI</li>
+        <li>ZAHEER</li>
+        
+    </ol>
+    </div>
+</body>
+</html>
