@@ -1,0 +1,111 @@
+<html>
+<head>
+    <style>
+        * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .header{
+           background-color: black;
+           height: 70px;
+           width: 100%;
+     }
+
+#logo{
+    display: flex;
+  width:40% ;
+  color:cornsilk;
+  float: left;
+  align-items: center;
+  text-align: center;
+  line-height: 70px;
+ }
+ a {
+    text-decoration: none;
+  font-size: large;
+    color:cornsilk;
+    margin-right:10px;
+    align-self: flex-end;
+}
+#nav {
+    width: 60%;
+    float: right;
+    text-align: center;
+    line-height: 70px;
+}
+.main-area{
+   
+    width: 100%;
+    height:100vh;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),   url("https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+           
+    background-size: cover;
+           
+}
+.container{
+    
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.content{
+   text-align:center;
+}
+.content h2{
+    font-size: 80px;
+    color: aquamarine;
+    margin-left: 150px;
+}
+.content p{
+    font-size: 30px;
+    color: greenyellow;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.content .btn{
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #eee;
+    margin-left: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #222;
+}
+</style>
+<title>NavBar</title>
+</head>
+<body>
+    
+
+    <div class="header">
+        <div id="logo">
+            <img src="https://image.shutterstock.com/image-vector/vector-illustration-silhouette-isolated-white-600w-1090377599.jpg" width="65px" height="65px" alt="logo" />
+<h1>Ashwini's PortFolio</h1>
+           </div>
+        <div id="nav">
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Landing page</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            
+        </div>
+    </div>
+    <div class="main-area">
+        <div class="container">
+            <div class="content">
+        <h2>Welcome to CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, ipsa rerum numquam laudantium sequi iure odio earum iusto ad! Nam.
+
+        </p>
+        <button class="btn">Click Me</button>
+    </div></div></div>
+
+    </body>
+</html>
